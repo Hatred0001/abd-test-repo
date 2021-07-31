@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 .body{
     margin: 0;
     width: 100%;
@@ -59,3 +59,36 @@
     padding-top: 1px;
     padding-bottom: 80px;
 }
+
+/*button CSS*/
+
+.button {
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 45%;
+    background-color: #ac635a;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*transition-duration: 2s; (optional)*/
+  }
+
+  .button a{
+      color: white;
+      font-family: 'Righteous', cursive;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+.button:hover{
+    background-color: #6c0d1b;
+}
+
+.button-bg{
+        background-color: #faeee9;
+    }
+
+
+/*buttons css end*/
